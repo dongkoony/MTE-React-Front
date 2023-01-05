@@ -31,7 +31,9 @@ export default function App() {
       <TextField label="login Password" type="password" required fullWidth name="password" autoComplete="password" sx={{mb:3}} />
       <TextField label="IP Address" required fullWidth name="ip" sx={{mb:3}} />
       <TextField label="Port"  required fullWidth name="port" sx={{mb:3}} />
-      <FormControlLabel control={<Checkbox value="remember" color="primary" />} label="Remember me" />
+      <Button type="submit" fullWidth variant="contained" sx={{mt:1}}>Linux</Button>
+      <Button type="submit" fullWidth variant="contained" sx={{mt:3}}>Windows</Button>
+      <FormControlLabel control={<Checkbox value="remember" color="primary" />} label="Remember me" sx={{mt:3}} />
       
       <Button type="submit" fullWidth variant="contained" sx={{mt:3}}>submission</Button>
       </Box>

@@ -1,0 +1,11 @@
+node_modules
+build/static/js/main.1a49c0a1.js.map
+build/static/js/main.1a49c0a1.js.LICENSE.txt
+build/static/js/main.1a49c0a1.js
+build/static/css/main.c76de836.css.map
+build/static/css/main.c76de836.css
+build/asset-manifest.json
+package.json
+package-lock.json
+build/
+*.json
